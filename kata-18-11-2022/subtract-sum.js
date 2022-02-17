@@ -126,3 +126,5 @@ function SubtractSum(n){
   return "apple";
 }
 
+//Solution 2
+const SubtractSum = n => "apple";
