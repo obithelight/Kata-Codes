@@ -120,3 +120,9 @@ There is no preloaded code to help you. This is not about coding skills; think b
 99-apple
 100-pineapple
 */
+
+//Solution 1
+function SubtractSum(n){
+  return "apple";
+}
+
