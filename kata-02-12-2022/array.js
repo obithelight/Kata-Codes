@@ -11,3 +11,13 @@ The array will always have at least 2 elements1 and all elements will be numbers
 */
 
 //Solution 1
+function firstNonConsecutive (arr) {
+    for(let i = 1; i < arr.length; i++){
+      let currentValue = arr[i]
+      let previousValue = arr[i - 1]
+    if(currentValue - previousValue > 1){
+      return currentValue
+    }  
+  }
+  return null
+}
