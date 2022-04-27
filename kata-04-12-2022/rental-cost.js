@@ -11,3 +11,4 @@ function rentalCarCost(d) {
   if(d >= 7) return (d * 40) - 50
 }
 
+//Solution 2
