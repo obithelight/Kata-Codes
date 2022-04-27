@@ -3,3 +3,5 @@ Define a function that removes duplicates from an array of numbers and returns i
 
 The order of the sequence has to stay the same.
 */
+
+//Solution 1
