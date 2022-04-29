@@ -12,3 +12,15 @@ function rentalCarCost(d) {
 }
 
 //Solution 2
+function rentalCarCost(d) {
+  switch(true){
+    case d < 3:
+      return d * 40
+      break;
+    case d >= 3 && d < 7:
+      return (d * 40) - 20
+      break;
+    default:
+      return (d * 40) - 50
+  }
+}
