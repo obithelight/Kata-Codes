@@ -5,3 +5,7 @@ The order of the sequence has to stay the same.
 */
 
 //Solution 1
+function distinct(a) {
+  let unique = [...new Set(a)]
+  return unique
+}
