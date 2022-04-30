@@ -24,3 +24,4 @@ function rentalCarCost(d) {
       return (d * 40) - 50
   }
 }
+
