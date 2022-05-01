@@ -12,3 +12,5 @@ function distinct(a) {
 
 //Solution 2
 const distinct = a => a.filter((item, index) => a.indexOf(item) === index);
+
+//Solution 3
