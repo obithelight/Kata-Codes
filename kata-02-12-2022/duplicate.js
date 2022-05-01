@@ -9,3 +9,5 @@ function distinct(a) {
   let unique = [...new Set(a)]
   return unique
 }
+
+//Solution 2
