@@ -12,3 +12,4 @@ function index(array, n){
   return array[n] ** n || -1
 }
 
+//Solution 2
