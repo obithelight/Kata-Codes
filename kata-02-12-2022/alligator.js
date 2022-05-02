@@ -9,3 +9,15 @@ Your goal in this kata is to create complete the mouth_size method this method t
 */
 
 //Solution 1
+function mouthSize(animal) {
+  switch(animal){
+    case "alligator":
+    case "ALLIGATOR":
+      return "small"
+      break;
+    default:
+      return "wide"
+  }
+}
+
+//Solution 2
