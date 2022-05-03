@@ -13,3 +13,4 @@ function index(array, n){
 }
 
 //Solution 2
+const index = (array, n) => array.length > n ? Math.pow(array[n], n) : -1
