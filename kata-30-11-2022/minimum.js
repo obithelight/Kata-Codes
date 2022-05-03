@@ -17,3 +17,5 @@ function removeSmallest(numbers) {
   
   return numbers.filter((element, i) => i !== index);
 }
+
+//Solution
