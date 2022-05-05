@@ -7,3 +7,11 @@ If your name would be Jeong-Ho Aristotelis, ad would cost £600. 20 leters * 30 
 */
 
 //Solution 1
+const billboard = (name, price = 30) => {
+ let sum = 0
+ for(let index = 0; index < name.length; index++){
+   sum += price
+ }
+  return sum
+}
+
