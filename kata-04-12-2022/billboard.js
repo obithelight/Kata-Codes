@@ -15,3 +15,4 @@ const billboard = (name, price = 30) => {
   return sum
 }
 
+//Solution 2
