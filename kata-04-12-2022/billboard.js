@@ -25,3 +25,4 @@ function billboard(name, price = 30){
 }
 
 //Solution 3
+const billboard = (name, price = 30) => +(name.length / (1 / price))
