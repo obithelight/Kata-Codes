@@ -14,3 +14,4 @@ function isDivisible(n, x, y) {
   else return false
 }
 
+//Solutions 2
