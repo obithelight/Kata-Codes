@@ -15,3 +15,4 @@ function isDivisible(n, x, y) {
 }
 
 //Solutions 2
+const isDivisible = (n, x, y) => n % x == 0 && n % y == 0 
