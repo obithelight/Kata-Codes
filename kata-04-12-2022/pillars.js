@@ -15,3 +15,4 @@ function pillars(numPill, dist, width) {
     return 0;
   }
 }
+
