@@ -16,3 +16,4 @@ function pillars(numPill, dist, width) {
   }
 }
 
+//Slution 2
