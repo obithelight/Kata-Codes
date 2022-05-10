@@ -16,4 +16,4 @@ function pillars(numPill, dist, width) {
   }
 }
 
-//Slution 2
+//Solution 2
