@@ -6,3 +6,10 @@ Given a non-negative integer, 3 for example, return a string with a murmur: "1 s
 */
 
 //Solution 1
+let countSheep = function (num){
+  let result = ""
+  for(let i = 1; i <= num; i++){
+    result += `${i} sheep...`  
+  }
+  return result
+}
