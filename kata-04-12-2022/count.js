@@ -14,3 +14,4 @@ let countSheep = function (num){
   return result
 }
 
+//Solution 2
