@@ -15,3 +15,12 @@ let countSheep = function (num){
 }
 
 //Solution 2
+const countSheep = (num) => {
+  let sum = ""
+  let index = 1
+  while(index <= num){
+    sum += `${index} sheep...`
+    index++
+  }
+  return sum
+}
