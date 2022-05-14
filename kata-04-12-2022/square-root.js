@@ -12,3 +12,14 @@ The input array will always contain only positive numbers, and will never be emp
 */
 
 //Solution 1
+function squareOrSquareRoot(array) {
+  let arr = []
+  for(let i = 0; i < array.length; i++){
+    if(Math.sqrt(array[i]) % 1 === 0){
+      arr.push(Math.sqrt(array[i]))
+    }else{
+      arr.push(array[i] ** 2)
+    }
+  }
+  return arr
+}
