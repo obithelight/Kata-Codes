@@ -24,3 +24,4 @@ function squareOrSquareRoot(array) {
   return arr
 }
 
+//Solution 2
