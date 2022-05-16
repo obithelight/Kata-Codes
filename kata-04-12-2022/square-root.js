@@ -25,3 +25,11 @@ function squareOrSquareRoot(array) {
 }
 
 //Solution 2
+const squareOrSquareRoot = (array) => {
+  let arr = []
+  for(let i = 0; i < array.length; i++) 
+      (Math.sqrt(array[i]) % 1 === 0) 
+      ? arr.push(Math.sqrt(array[i])) 
+      : arr.push(array[i] ** 2)
+      return arr
+}
