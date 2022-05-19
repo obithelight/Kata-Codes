@@ -42,3 +42,4 @@ function getGrade (score1, score2, score3) {
     else if(average >= 0 && average < 60) return "F" 
 }
 
+//Solution 3
