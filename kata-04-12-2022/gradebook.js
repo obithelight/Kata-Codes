@@ -43,3 +43,18 @@ function getGrade (score1, score2, score3) {
 }
 
 //Solution 3
+function getGrade (score1, score2, score3) {
+  let average = (score1 + score2 + score3) / 3
+  switch(true) {
+    case average >= 90:
+      return 'A';
+    case average >= 80:
+      return 'B';
+    case average >= 70:
+      return 'C';
+    case average >= 60:
+      return 'D';
+   default:
+      return 'F';
+  }
+}
