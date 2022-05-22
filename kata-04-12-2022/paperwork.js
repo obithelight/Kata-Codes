@@ -14,3 +14,4 @@ function paperwork(n, m) {
   else return n * m
 }
 
+//Solution 2
