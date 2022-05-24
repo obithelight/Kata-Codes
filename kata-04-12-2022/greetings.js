@@ -8,3 +8,4 @@ name equals owner 'Hello boss'
 otherwise 'Hello guest'
 */
 
+//Solution 1
