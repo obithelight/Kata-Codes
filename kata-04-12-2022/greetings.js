@@ -19,3 +19,4 @@ function greet (name, owner) {
   }
 }
 
+//Solution 2
