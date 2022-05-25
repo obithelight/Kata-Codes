@@ -9,3 +9,12 @@ otherwise 'Hello guest'
 */
 
 //Solution 1
+function greet (name, owner) {
+  switch(true){
+    case name === owner:
+      return "Hello boss"
+      break;
+    default:
+      return "Hello guest"
+  }
+}
