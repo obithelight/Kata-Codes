@@ -20,3 +20,8 @@ function greet (name, owner) {
 }
 
 //Solution 2
+function greet (name, owner) {
+  if(name === owner)
+    return "Hello boss"
+    return "Hello guest"
+}
