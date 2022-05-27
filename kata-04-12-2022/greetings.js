@@ -26,3 +26,4 @@ function greet (name, owner) {
     return "Hello guest"
 }
 
+//Solution 3
