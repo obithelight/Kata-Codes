@@ -10,3 +10,5 @@ Your task is to create a function that returns true if the given number is a Wil
 */
 
 //Solution 1
+
+/*The only known Wilson primes are 5, 13, and 563*/
