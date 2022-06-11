@@ -12,3 +12,5 @@ Complete the function howManydays. It accepts 1 parameter month, which means the
 +---------------+-------------+
 Tip: Using default for most of the cases can reduce your work.
 */
+
+//Solution 1
