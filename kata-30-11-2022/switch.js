@@ -21,3 +21,5 @@ const howManydays = (month) =>{
     default: return 31
   }
 }
+
+//Solution 2
