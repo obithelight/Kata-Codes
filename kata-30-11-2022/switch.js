@@ -36,3 +36,5 @@ function howManydays(month){
       return 31
   } 
 }
+
+//Solution 3
