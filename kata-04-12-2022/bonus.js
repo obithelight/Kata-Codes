@@ -7,3 +7,7 @@ If bonus is true, the salary should be multiplied by 10. If bonus is false, the 
 */
 
 //Solution 1
+function bonusTime(salary, bonus) {
+  if(bonus) return `£${salary * 10}`
+  return `£${salary}`
+}
