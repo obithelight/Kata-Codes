@@ -13,3 +13,12 @@ function bonusTime(salary, bonus) {
 }
 
 //Solution 2
+function bonusTime(salary, bonus) {
+  switch(true){
+    case bonus:
+      return `£${salary * 10}`
+      break;
+    default:
+      return `£${salary}`
+  }
+}
