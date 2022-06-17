@@ -22,3 +22,4 @@ function bonusTime(salary, bonus) {
       return `£${salary}`
   }
 }
+
