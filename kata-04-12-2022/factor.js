@@ -26,3 +26,4 @@ function checkForFactor (base, factor) {
   }
 }
 
+//Solution 2
