@@ -16,3 +16,12 @@ Note: base is a non-negative number, factor is a positive number.
 */
 
 //Solution 1
+function checkForFactor (base, factor) {
+  switch(true){
+  case base % factor === 0:
+    return true
+    break;
+  default:
+    return false
+  }
+}
