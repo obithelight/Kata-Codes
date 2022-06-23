@@ -33,3 +33,4 @@ function checkForFactor (base, factor) {
     return false
 }
 
+//Solution 3
