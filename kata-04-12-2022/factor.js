@@ -27,3 +27,8 @@ function checkForFactor (base, factor) {
 }
 
 //Solution 2
+function checkForFactor (base, factor) {
+  if(base % factor === 0) 
+    return true
+    return false
+}
