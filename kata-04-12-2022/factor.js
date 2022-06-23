@@ -32,3 +32,4 @@ function checkForFactor (base, factor) {
     return true
     return false
 }
+
