@@ -34,3 +34,4 @@ function checkForFactor (base, factor) {
 }
 
 //Solution 3
+const checkForFactor = (base, factor) => base % factor === 0;
