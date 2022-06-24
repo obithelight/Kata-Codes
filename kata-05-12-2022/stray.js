@@ -21,3 +21,4 @@ function stray(numbers) {
 }
 
 //Solution 2
+const stray = nums => nums.reduce((a, b) => a ^ b);
