@@ -19,3 +19,5 @@ function stray(numbers) {
       return numbers[i]
   }
 }
+
+//Solution 2
