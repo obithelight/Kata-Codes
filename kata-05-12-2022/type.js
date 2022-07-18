@@ -5,3 +5,4 @@ Examples:
 42, "number"   --> true
 "42", "number" --> false
 */
+
