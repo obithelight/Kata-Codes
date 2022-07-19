@@ -6,3 +6,4 @@ Examples:
 "42", "number" --> false
 */
 
+//Solution 1
