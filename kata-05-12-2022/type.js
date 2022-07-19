@@ -7,3 +7,7 @@ Examples:
 */
 
 //Solution 1
+function typeValidation(variable, type) {
+  if(typeof variable === type) return true
+  return false
+}
