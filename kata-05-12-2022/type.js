@@ -13,3 +13,4 @@ function typeValidation(variable, type) {
 }
 
 //Solution 2
+const typeValidation = (variable, type) => typeof variable === type ;
