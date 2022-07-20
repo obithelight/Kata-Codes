@@ -12,3 +12,4 @@ function typeValidation(variable, type) {
   return false
 }
 
+//
