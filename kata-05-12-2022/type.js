@@ -12,4 +12,4 @@ function typeValidation(variable, type) {
   return false
 }
 
-//
+//Solution 2
