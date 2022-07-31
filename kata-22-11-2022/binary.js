@@ -17,3 +17,4 @@ function toBinary(n){
 }
 
 //Solution 2
+const toBinary = n => Number(n.toString(2)) 
