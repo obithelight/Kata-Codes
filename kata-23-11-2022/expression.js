@@ -26,5 +26,5 @@ After placing signs and brackets, the Maximum value obtained from the expression
 
 //Solution 1
 function expressionMatter(a, b, c) {
-  return Math.max((a * b * c), (a + b + c), (a + b) * c, a * (b + c))
+  return Math.max((a*b*c), (a+b+c), (a+b)*c, a*(b+c))
 }
