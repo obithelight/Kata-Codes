@@ -35,3 +35,6 @@ function expressionMatter(a, b, c) {
   let j = a * b * c;
   let k = a + b + c;
   let l = (a + b) * c;
+
+  return Math.max(i, j, k, l);
+}
