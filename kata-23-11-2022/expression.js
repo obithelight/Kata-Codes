@@ -30,3 +30,8 @@ function expressionMatter(a, b, c) {
 }
 
 //Solution 2
+function expressionMatter(a, b, c) {
+  let i = a * (b + c);
+  let j = a * b * c;
+  let k = a + b + c;
+  let l = (a + b) * c;
