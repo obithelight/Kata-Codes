@@ -33,4 +33,4 @@ function howMuchILoveYou(nbPetals) {
   }
 }
 
-//
+//Solution 2
