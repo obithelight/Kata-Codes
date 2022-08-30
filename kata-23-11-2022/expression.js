@@ -38,3 +38,6 @@ function expressionMatter(a, b, c) {
 
   return Math.max(i, j, k, l);
 }
+
+//Solution 3
+const expressionMatter = (a,b,c) => Math.max(a+b+c, a*b*c, a+b*c, (a+b)*c, a*b+c, a*(b+c))
