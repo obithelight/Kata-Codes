@@ -13,3 +13,6 @@ function filter_list(l) {
 }
 
 //Solution 2
+function filter_list(l) {
+  return l.filter(element => typeof element !== "string")
+}
