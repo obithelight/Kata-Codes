@@ -16,3 +16,5 @@ function filter_list(l) {
 function filter_list(l) {
   return l.filter(element => typeof element !== "string")
 }
+
+//Solution 3
