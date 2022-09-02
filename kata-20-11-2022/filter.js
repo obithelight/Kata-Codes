@@ -19,3 +19,5 @@ function filter_list(l) {
 
 //Solution 3
 const filter_list = l => l.filter(element => typeof element === "number")
+
+//Solution 4
