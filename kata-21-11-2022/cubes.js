@@ -9,3 +9,5 @@ Examples:
 countSquares(2) --> 26
 countSquares(4) --> 98
 */
+
+//Solution 1
