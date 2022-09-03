@@ -21,3 +21,6 @@ function filter_list(l) {
 const filter_list = l => l.filter(element => typeof element === "number")
 
 //Solution 4
+function filter_list(arr) {
+  return arr.filter(element => Number.isInteger(element))
+}
