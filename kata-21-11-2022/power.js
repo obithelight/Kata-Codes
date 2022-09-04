@@ -8,3 +8,11 @@ n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 */
 
 //Solution 1
+function powersOfTwo(n){
+  let m = []
+  for(let i = 0; i <= n; i++){
+    let x = Math.pow(2, i)
+    m.push(x)
+  }
+  return m
+}
