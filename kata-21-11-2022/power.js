@@ -16,3 +16,5 @@ function powersOfTwo(n){
   }
   return m
 }
+
+//Solution 2
