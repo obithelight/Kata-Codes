@@ -18,3 +18,11 @@ function powersOfTwo(n){
 }
 
 //Solution 2
+const powersOfTwo = x => {
+  let y = []
+  for(let i = 0; i <= x; i++){
+    let z = 2 ** i
+    y.push(z)
+  }
+  return y
+}
