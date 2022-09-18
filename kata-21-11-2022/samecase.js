@@ -41,3 +41,9 @@ function sameCase(a, b){
   }
 
   //Solution 3
+  function sameCase(a, b){
+ // If a character is not a letter then the cases will match each other
+  if (a.toLowerCase() === a.toUpperCase() || b.toLowerCase() === b.toUpperCase()) {
+    return -1;
+  }
+  return (a.toLowerCase() === a) === (b.toLowerCase() === b) ? 1 : 0;
