@@ -9,3 +9,5 @@ describe("Basic tests",() => {
   Test.assertEquals(nearestSq(9999),10000)
 });
 */
+
+//Solution 1
