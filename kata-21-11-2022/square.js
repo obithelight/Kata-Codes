@@ -17,5 +17,5 @@ function nearestSq(n){
 
 //Solution 2
 function nearestSq(n){
-    return Math.round(n**0.5)**2
+    return Math.round(n ** 0.5) ** 2
 }
