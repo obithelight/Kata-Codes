@@ -21,3 +21,4 @@ function nearestSq(n){
 }
 
 //Solution 3
+const nearestSq = n => Math.round(n ** 0.5) ** 2
