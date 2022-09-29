@@ -24,3 +24,7 @@ function nearestSq(n){
 const nearestSq = n => Math.round(n ** 0.5) ** 2
 
 //Solution 4
+function nearestSq(n){
+    let a = Math.round(Math.sqrt(n));
+    return a * a;
+}
