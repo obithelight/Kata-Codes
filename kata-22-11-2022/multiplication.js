@@ -24,3 +24,5 @@ function multiTable(number) {
   }
   return table.slice(0, -1)
 }
+
+//Solution 2
