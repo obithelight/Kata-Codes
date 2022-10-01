@@ -35,3 +35,5 @@ const multiTable = (number) => {
 
   return table;
 }
+
+//Solution 3
