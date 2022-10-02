@@ -44,3 +44,5 @@ const multiTable = (n) => {
   }
   return table.join('\n')
 }
+
+//Solution 4
