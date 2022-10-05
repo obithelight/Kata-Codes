@@ -11,3 +11,4 @@ function mystery() {
 }
 
 //Solution 2
+const mystery = () => ({sanity: 'Hello'});
