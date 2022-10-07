@@ -10,6 +10,7 @@ Notes
 You may consider that there will not be any empty arrays/vectors.
 */
 
+//Solution 1
 let min = function(list){
     
     return Math.min(...list);
@@ -19,3 +20,4 @@ let max = function(list){
     
     return Math.max(...list);
 }
+
