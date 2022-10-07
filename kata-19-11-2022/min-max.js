@@ -21,3 +21,4 @@ let max = function(list){
     return Math.max(...list);
 }
 
+//Solution 2
