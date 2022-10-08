@@ -6,3 +6,4 @@ function typeOfSum(a, b) {
 }
 
 //Solution 2
+const typeOfSum = (a, b) => typeof(a + b)
