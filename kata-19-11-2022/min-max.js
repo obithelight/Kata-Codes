@@ -9,3 +9,13 @@ Examples (Input -> Output)
 Notes
 You may consider that there will not be any empty arrays/vectors.
 */
+
+let min = function(list){
+    
+    return Math.min(...list);
+}
+
+let max = function(list){
+    
+    return Math.max(...list);
+}
