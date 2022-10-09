@@ -22,3 +22,4 @@ function feast(beast, dish) {
 }
 
 //Solution 4
+feast = (beast, dish) => beast.slice(0,1) == dish.slice(0,1) && beast.slice(-1) == dish.slice(-1)
