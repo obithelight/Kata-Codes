@@ -43,3 +43,4 @@ function findEvenIndex(arr)
   return -1;
 }
 
+//Solution 2
