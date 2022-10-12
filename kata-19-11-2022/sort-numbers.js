@@ -8,3 +8,7 @@ solution(null); // should return []
 */
 
 //Solution 1
+function solution(nums){
+  return (nums || []).sort((a, b) => a - b)
+
+//Solution 2
