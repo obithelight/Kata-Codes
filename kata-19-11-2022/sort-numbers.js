@@ -12,3 +12,4 @@ function solution(nums){
   return (nums || []).sort((a, b) => a - b)
 
 //Solution 2
+let solution = (nums) => (nums || []).sort((a,b) => (a-b))
