@@ -11,3 +11,5 @@ mission 3:
 
 type the console.log() in the next line (don't forget to put the str in the parentheses).
 */
+
+//Solution 1
