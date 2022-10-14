@@ -21,6 +21,6 @@ let max = function(list){
     return Math.max(...list);
 }
 
-
+//Solution 2
 const min = (list) => Math.min(...list);
 const max = (list) => Math.max(...list);
