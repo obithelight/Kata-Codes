@@ -13,3 +13,9 @@ type the console.log() in the next line (don't forget to put the str in the pare
 */
 
 //Solution 1
+function helloWorld(){
+  let str = "Hello World!"
+  console.log(str)
+}
+
+//Solution 2
