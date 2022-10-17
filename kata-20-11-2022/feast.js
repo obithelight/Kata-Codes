@@ -12,3 +12,6 @@ return dish[0] === beast[0] && dish[dish.length - 1] === beast[beast.length - 1]
 }
 
 //Solution 2
+function feast(beast, dish) {
+  return beast[0] === dish[0] && beast.slice(-1) === dish.slice(-1);
+}
