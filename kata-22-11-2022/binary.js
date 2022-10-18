@@ -12,3 +12,6 @@ toBinary(11) // should return 1011
 */
 
 //Solution 1
+function toBinary(n){
+  return +n.toString(2);
+}
