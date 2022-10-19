@@ -7,3 +7,6 @@ Assume that beast and dish are always lowercase strings, and that each has at le
 */
 
 //Solution 1
+function feast(beast, dish) {
+return dish[0] === beast[0] && dish[dish.length - 1] === beast[beast.length - 1]
+}
