@@ -10,3 +10,4 @@ function mystery() {
   return results;
 }
 
+//Solution 2
