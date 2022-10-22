@@ -20,3 +20,7 @@ function summation(num) {
 const summation = n => n * (n + 1) / 2;
 
 //Solution 3
+const summation = num => (
+  Array(num).fill(true)
+    .reduce((sum, item, index) => sum + index + 1, 0)
+);
