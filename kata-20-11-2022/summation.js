@@ -15,3 +15,5 @@ function summation(num) {
   }
   return sum
 }
+
+//Solution 2
