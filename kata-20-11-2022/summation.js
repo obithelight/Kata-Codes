@@ -6,3 +6,5 @@ For example:
 summation(2) -> 3
 1 + 2
 */
+
+//Solution 1
