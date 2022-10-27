@@ -12,3 +12,7 @@ Note: for the purposes of this kata you will assume that it is a square if its l
 const areaOrPerimeter = (l , w) => l === w ? l * w : 2 * (l + w)
 
 //Solution 2
+const areaOrPerimeter = function(l , w) {
+  if(l === w) return l * w
+  else return 2 * (l + w) 
+};
