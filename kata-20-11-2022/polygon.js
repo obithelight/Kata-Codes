@@ -10,3 +10,5 @@ Note: for the purposes of this kata you will assume that it is a square if its l
 
 //Solution 1
 const areaOrPerimeter = (l , w) => l === w ? l * w : 2 * (l + w)
+
+//Solution 2
