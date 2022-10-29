@@ -12,5 +12,5 @@ function maxBisectors(n) {
 }
 
 //Solution 2
-
+const maxBisectors = (n) => n ** 2 / 4 | 0;
 
