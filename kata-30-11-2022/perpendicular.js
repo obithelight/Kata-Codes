@@ -7,3 +7,6 @@ n will always be greater than or equal to 0
 */
 
 //Solution 1
+function maxBisectors(n) {
+  return Math.floor(n * n / 4);
+}
