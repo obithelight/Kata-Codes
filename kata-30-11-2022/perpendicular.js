@@ -10,3 +10,4 @@ n will always be greater than or equal to 0
 function maxBisectors(n) {
   return Math.floor(n * n / 4);
 }
+
