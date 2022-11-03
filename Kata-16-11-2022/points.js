@@ -19,3 +19,18 @@ our team always plays 10 matches in the championship
 0 <= y <= 4
 */
 
+//Solution 1
+function points(games) {
+ let sum = 0;
+ for(let i = 0; i < games.length; i++) {
+     
+   let a = games[i].split(':');
+   if(a[0] > a[1]) {
+     sum += 3;
+   } else if(a[0] == a[1]) {
+     sum += 1;
+   } else { sum = sum } 
+  
+ }
+ return sum;
+}
