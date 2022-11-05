@@ -13,3 +13,4 @@ function maxBisectors(n) {
 
 //Solution 2
 
+
