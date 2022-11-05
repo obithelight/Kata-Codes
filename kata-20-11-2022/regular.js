@@ -18,3 +18,7 @@ class Ball{
 }
 
 //Solution 2
+let Ball = function(ballType) {
+  this.ballType = ballType || 'regular';
+};
+
