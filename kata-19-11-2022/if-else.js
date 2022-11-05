@@ -26,3 +26,12 @@ const saleHotdogs = n => n * (n < 5 ? 100 : n < 10 ? 95 : 90)
 function saleHotdogs(n){
   return n*(n<5?100:n<10?95:90);
 }
+
+//Solution 4
+const saleHotdogs = (n) => {
+  switch (true) {
+    case n < 5: return n * 100;
+    case n < 10: return n * 95;
+    default: return n * 90;
+  }
+}
