@@ -17,3 +17,4 @@ let countSquares = function(cuts){
 }
 
 //Solution 2
+const countSquares = n => n ? 6 * n * n + 2 : 1
