@@ -21,3 +21,8 @@ function saleHotdogs(n){
 
 //Solution 2
 const saleHotdogs = n => n * (n < 5 ? 100 : n < 10 ? 95 : 90)
+
+//Solution 3
+function saleHotdogs(n){
+  return n*(n<5?100:n<10?95:90);
+}
