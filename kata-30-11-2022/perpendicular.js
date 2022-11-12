@@ -11,3 +11,5 @@ function maxBisectors(n) {
   return Math.floor(n * n / 4);
 }
 
+//Solution 2
+
