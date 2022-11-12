@@ -18,3 +18,6 @@ function saleHotdogs(n){
     return 90 * n
   }
 }
+
+//Solution 2
+const saleHotdogs = n => n * (n < 5 ? 100 : n < 10 ? 95 : 90)
