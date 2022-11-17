@@ -15,3 +15,5 @@ let countSquares = function(cuts){
   if(cuts === 0) return 1
   else return cuts * cuts * 6 + 2
 }
+
+//Solution 2
