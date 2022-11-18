@@ -11,3 +11,7 @@ countSquares(4) --> 98
 */
 
 //Solution 1
+let countSquares = function(cuts){
+  if(cuts === 0) return 1
+  else return cuts * cuts * 6 + 2
+}
