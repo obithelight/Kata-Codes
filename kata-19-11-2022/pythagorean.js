@@ -8,3 +8,9 @@ where c is the largest value of a, b, c.
 
 For example: a = 3, b = 4, c = 5 forms a pythagorean triple, because 52 = 32 + 42
 */
+
+function isPythagoreanTriple(integers) {
+  let myNums = integers.sort((a, b) => a - b)
+  myNums = myNums[0] ** 2 + myNums[1] ** 2 == myNums[2] ** 2 
+  return myNums
+}
