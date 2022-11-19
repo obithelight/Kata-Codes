@@ -16,3 +16,5 @@ class Ball{
     this.ballType = ballType
   }
 }
+
+//Solution 2
