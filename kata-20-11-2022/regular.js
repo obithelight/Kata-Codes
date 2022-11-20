@@ -10,3 +10,4 @@ ball1.ballType     //=> "regular"
 ball2.ballType     //=> "super"
 */ 
 
+//Solution 1
