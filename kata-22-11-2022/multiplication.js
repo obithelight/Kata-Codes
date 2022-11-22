@@ -15,3 +15,5 @@ For example, a multiplication table (string) for number == 5 looks like below:
 10 * 5 = 50
 P. S. You can use \n in string to jump to the next line.
 */
+
+//Solution 1
