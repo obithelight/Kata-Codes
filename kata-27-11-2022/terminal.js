@@ -11,3 +11,4 @@ function move (position, roll) {
 }
 
 //Solution 2
+const move = (position, roll) => position + (roll * 2)
