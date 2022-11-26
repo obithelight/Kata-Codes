@@ -13,3 +13,5 @@ function removeEveryOther(arr){
   }
   return newArr
 }
+
+//Solution 2
