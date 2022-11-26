@@ -4,3 +4,5 @@ Take an array and remove every second element from the array. Always keep the fi
 Example:
 ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
 */
+
+//Solution 1
