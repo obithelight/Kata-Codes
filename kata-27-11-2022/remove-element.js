@@ -15,3 +15,4 @@ function removeEveryOther(arr){
 }
 
 //Solution 2
+const removeEveryOther = arr => arr.filter((element, index) => index % 2 == 0)
