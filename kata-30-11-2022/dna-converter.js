@@ -17,4 +17,4 @@ function DNAtoRNA(dna){
 }
 
 //Solution 2
-
+const DNAtoRNA = dna => dna.replace(/T/g, 'U');
