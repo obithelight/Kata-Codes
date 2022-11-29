@@ -11,3 +11,7 @@ Floats with decimal part non equal to zero are considered UNeven for this kata.
 */
 
 //Solution 1
+
+function testEven(n) {
+  return n % 2 === 0;
+}
