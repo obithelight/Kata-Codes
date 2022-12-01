@@ -23,3 +23,6 @@ const quarterOf = month => {
 }
 
 //Solution 3
+const quarterOf = (month) => {
+  return Math.ceil(month / 3);
+}
