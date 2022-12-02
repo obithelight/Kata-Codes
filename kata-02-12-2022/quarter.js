@@ -5,3 +5,14 @@ For example: month 2 (February), is part of the first quarter; month 6 (June), i
 */
 
 //Solution 1
+const quarterOf = month => {
+  switch(month){
+    case 1: case 2: case 3: return 1 
+      break;
+    case 4: case 5: case 6: return 2 
+      break;
+    case 7: case 8: case 9: return 3 
+      break;
+    default: return 4
+  }  
+}
