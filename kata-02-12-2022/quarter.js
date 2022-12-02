@@ -16,3 +16,5 @@ const quarterOf = month => {
     default: return 4
   }  
 }
+
+//Solution 2
