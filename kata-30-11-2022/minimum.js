@@ -10,3 +10,10 @@ Examples
 */
 
 //Solution
+function removeSmallest(numbers) {
+  const smallest = Math.min(...numbers);
+  
+  const index = numbers.indexOf(smallest);
+  
+  return numbers.filter((element, i) => i !== index);
+}
