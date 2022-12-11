@@ -8,3 +8,4 @@ function binToDec(bin){
 }
 
 //Solution 2
+const binToDec = bin => parseInt(bin, 2)
