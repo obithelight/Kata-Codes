@@ -7,4 +7,4 @@ function binToDec(bin){
   return parseInt(bin,2)
 }
 
-//
+//Solution 2
